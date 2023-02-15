@@ -11,7 +11,7 @@ public void draw() {
   pushMatrix();
   fractal(length, PI/2+rot);
   popMatrix();
-  rot +=0.02;
+  rot +=0.01;
   length += 20;
   if(length >= 5000) {
     length = 2222;
